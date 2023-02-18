@@ -27,3 +27,6 @@ git remote add origin https://github.com/paschalugwu/test_demo.git
 
 #10 To push local file into the repository
 git push origin master
+
+#11 To clone repo to local machine
+git clone 
