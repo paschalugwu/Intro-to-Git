@@ -28,5 +28,16 @@ git remote add origin https://github.com/paschalugwu/test_demo.git
 #10 To push local file into the repository
 git push origin master
 
-#11 To clone repo to local machine
-git clone 
+#11 To clone repo to local machine in visual studio
+git clone https://github.com/paschalugwu/Intro-to-Git.git
+
+#12 To log into github account
+ssh-keygen -t rsa -b 4096 -C "ugwupaschal@gmail.com"
+
+#####13 For "Enter file in which to save the key", I used "testkey" #####
+
+#13 To display the key
+cat testkey.pub
+#Note: there are 2 files generated i.e. testkey and testkey.pub. We can only use testkey.pub since its the one that is available for public use...
+
+
